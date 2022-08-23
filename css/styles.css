@@ -1,0 +1,125 @@
+
+.bg{
+  /* The image used */
+  background-image: url("../images/w.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   
+    
+     height:900px;
+
+}
+
+
+#card_nav{
+background-color: red;
+    
+    
+}
+
+#content1{
+    
+    background-image: url("../images/contentbg.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+}
+
+#content2{
+        background-image: url("../images/passenger2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+     background-size:cover;
+    -moz-background-attachment: fixed;
+   -webkit- background-attachment: fixed;
+     -o-background-attachment: fixed;
+    background-attachment: fixed;
+    height: 500px;
+    max-width: 100vw;
+}
+
+#negotiate{
+     background-image: url("../images/fare.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    width: 100vw;
+    height: 500px;
+}
+
+#bgcertificate{
+        background-image: url("../images/driverbg.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+     -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+     -o-background-attachment: fixed;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 500px;
+}
+
+#emergency{
+        background-image: url("../images/caller.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+     -webkit-background-attachment:;
+    -moz-background-attachment:;
+     -o-background-attachment: ;
+    background-attachment: ;
+    width: 100vw;
+    height: 700px;
+}
+
+#battery{
+        background-image: url("../images/lowbattery.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+     -webkit-background-attachment:fixed;
+    -moz-background-attachment:fixed:;
+     -o-background-attachment:fixed ;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 500px;
+}
+
+#surge{
+        background-image: url("../images/timer.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+     -webkit-background-attachment:fixed;
+    -moz-background-attachment:fixed:;
+     -o-background-attachment:fixed ;
+    background-attachment:fixed ;
+    width: 100vw;
+    height: 500px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .bg{
+       height: 800px;
+ 
+        
+        
+    }
+    
+
+    
+  
+}

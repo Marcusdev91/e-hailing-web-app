@@ -1,0 +1,35 @@
+
+.bg{
+  /* The image used */
+  background-image: url("../images/hbg.png");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   
+    
+     height: 590px;
+
+}
+
+
+#card_nav{
+background-color: red;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .bg{
+       height: 800px;
+      background-attachment: fixed;
+        
+        
+    }
+    
+
+    
+  
+}
